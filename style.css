@@ -1,0 +1,185 @@
+body{
+    font-family: Josefin Sans;
+    background-color: #dcb492; /* #d4d4d4; */
+    color: #21130d;
+}
+
+
+
+#cover {
+    padding-bottom: 300px;
+    background: url("zdjecia/bieszczady.png") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    margin-top: -45px;
+}
+
+button{
+    background-color: transparent;
+}
+#cover h1, #cover p, #cover button {
+    margin-left: 10%;
+    color:#21130d;
+}
+h1{
+    font-size: 55px;
+    padding-top: 30px ;
+}
+ #cover p{
+    font-size: 30px;
+ }
+ #cover button{
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 5%;
+    margin-top:100px;
+ }
+ #cover button:hover{
+    cursor:pointer;
+    background-color:pink;
+ }
+
+#about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#about p{
+    font-size:20px;
+}
+#ja{
+    width: 500px;
+    margin: 5%;
+}
+
+.photos{
+    width:50%;
+    display: grid;
+    grid-template-columns: 120px 120px 100px;
+    
+}
+#mapa{
+    margin-top: -100px;
+    margin-left: 60px;
+}
+#bornholm{
+    margin-top:40px;
+}
+.myphotos{
+    width: 200px;
+}
+
+@media screen and (max-width: 700px){
+    #about{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    #ja{
+        width:400px;
+        margin-bottom: 0;
+    }
+}
+
+    
+
+#meinit h1{
+    margin-left: 10%;
+}
+#footer{
+    width: 100%;
+}
+.kafelki{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 15px;
+}
+@media screen and (max-width: 700px){
+    .kafelki{
+        display:flex;
+        flex-direction: column;
+    }
+}
+#whatiknow h1{
+    margin-left: 10%;
+}
+#whatiknow ul{
+    font-size: 25px;
+    
+    
+}
+#whatiknow h2{
+    margin-left:50%;
+    font-size: 40px;
+    color: rgb(183, 18, 46);
+    font-style: italic;
+}
+#github{
+    width: 80px;
+}
+@media screen and (max-width: 700px){
+    #whatiknow h2{
+        margin: 0 auto;
+        font-size: 30px;
+    }
+}
+
+#courses h1{
+    margin-left: 10%;
+}
+#contact h1{
+    margin-left: 10%;
+}
+
+.certificates{
+    width: 500px;
+    padding: 3px;
+}
+
+.kursy{
+    display: flex;
+    margin-left: 5%;
+}
+@media screen and (max-width: 700px){
+    .kursy{
+        display:flex;
+        flex-direction: column;
+    }
+}
+#contact h3, p{
+    margin-left: 10%;
+}
+#contact h3{
+    color:rgb(183, 18, 46); 
+}
+
+#contact button:hover{
+    cursor: pointer;
+    background-color: pink;
+}
+#contact button{
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 5%;
+    margin-top:100px;
+    margin-left:20%;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.ikonki{
+    padding: 20px;
+    text-align: center;
+}
+.ikonki i{
+    margin-right: 40px;
+    font-size: 40px;
+    color:#21130d;
+}
+.pierniczki{
+    width: 100%;
+}
